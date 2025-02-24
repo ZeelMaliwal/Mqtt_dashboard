@@ -58,18 +58,18 @@ python manage.py mqtt_client
 python manage.py runserver
 ```
 
-## 💽 MQTT Broker Configuration  
+## MQTT Broker Configuration  
 - Broker: `eu1.cloud.thethings.network`  
 - Port: `8883` (TLS secure connection)  
 - Topic: `v3/lairdtemphum@ttn/devices/+/up`  
 
-## 📊 Simulating Data (Testing)  
+## Simulating Data (Testing)  
 To test the MQTT setup, run:  
 ```bash
 python publish_test_message.py
 ```
 
-## 🔥 Important Notes  
+## Important Notes  
 - This project is designed for **IoT applications**, such as:  
   - **Smart agriculture** (monitoring temperature & humidity in farms).  
   - **Home automation** (tracking environmental conditions).  
